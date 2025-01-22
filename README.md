@@ -1,6 +1,6 @@
 # cli-template
 
-A Rust CLI that follows clig.dev best practices
+A Rust CLI template that follows clig.dev best practices. Use this to start your own CLI.
 
 ## Purpose
 
