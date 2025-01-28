@@ -1,5 +1,0 @@
----
-default: patch
----
-
-# Configure Knope
