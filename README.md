@@ -78,7 +78,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 ### Arguments and flags
 
-[Link to clig.dev section]([https://clig.dev/#output](https://clig.dev/#arguments-and-flags))
+[Link to clig.dev section](https://clig.dev/#arguments-and-flags)
 
 - [ ] Prefer flags to args.
 - [ ] Have full-length versions of all flags.
@@ -97,7 +97,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 ### Interactivity
 
-[Link to clig.dev section]([https://clig.dev/#output](https://clig.dev/#interactivity))
+[Link to clig.dev section](https://clig.dev/#interactivity)
 
 - [ ] Only use prompts or interactive elements if stdin is an interactive terminal (a TTY).
 - [ ] If `--no-input` is passed, don’t prompt or do anything interactive.
@@ -106,7 +106,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 ### Subcommands
 
-[Link to clig.dev section]([https://clig.dev/#output](https://clig.dev/#subcommands))
+[Link to clig.dev section](https://clig.dev/#subcommands)
 
 - [ ] Be consistent across subcommands.
 - [ ] Use consistent names for multiple levels of subcommand.
@@ -114,7 +114,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 ### Robustness
 
-[Link to clig.dev section]([https://clig.dev/#output](https://clig.dev/#robustness))
+[Link to clig.dev section](https://clig.dev/#robustness)
 
 - [ ] Validate user input.
 - [ ] Responsive is more important than fast.
@@ -127,7 +127,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 ### Future-proofing
 
-[Link to clig.dev section]([https://clig.dev/#output](https://clig.dev/#future-proofing))
+[Link to clig.dev section](https://clig.dev/#future-proofing)
 
 - [ ] Keep changes additive where you can.
 - [ ] Warn before you make a non-additive change.
@@ -138,14 +138,14 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 ### Signals and control characters
 
-[Link to clig.dev section]([https://clig.dev/#output](https://clig.dev/#future-proofing))
+[Link to clig.dev section](https://clig.dev/#future-proofing)
 
 - [ ] If a user hits Ctrl-C (the INT signal), exit as soon as possible.
 - [ ] If a user hits Ctrl-C during clean-up operations that might take a long time, skip them.
 
 ### Configuration
 
-[Link to clig.dev section]([https://clig.dev/#output](https://clig.dev/#configuration))
+[Link to clig.dev section](https://clig.dev/#configuration)
 
 - [ ] Follow the XDG-spec.
 - [ ] If you automatically modify configuration that is not your program’s, ask the user for consent and tell them exactly what you’re doing.
@@ -153,7 +153,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 ### Environment variables
 
-[Link to clig.dev section]([https://clig.dev/#output](https://clig.dev/#environment-variables))
+[Link to clig.dev section](https://clig.dev/#environment-variables)
 
 - [ ] Environment variables are for behavior that *varies with the context* in which a command is run.
 - [ ] For maximum portability, environment variable names must only contain uppercase letters, numbers, and underscores (and mustn’t start with a number).
@@ -166,7 +166,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 ### Naming
 
-[Link to clig.dev section]([https://clig.dev/#output](https://clig.dev/#naming))
+[Link to clig.dev section](https://clig.dev/#naming)
 
 - [ ] Make it a simple, memorable word.
 - [ ] Use only lowercase letters, and dashes if you really need to.
@@ -175,14 +175,14 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 ### Distribution
 
-[Link to clig.dev section]([https://clig.dev/#output](https://clig.dev/#distribution))
+[Link to clig.dev section](https://clig.dev/#distribution)
 
 - [ ] If possible, distribute as a single binary.
 - [ ] Make it easy to uninstall.
 
 ### Analytics
 
-[Link to clig.dev section]([https://clig.dev/#output](https://clig.dev/#analytics))
+[Link to clig.dev section](https://clig.dev/#analytics)
 
 - [ ] Do not phone home usage or crash data without consent.
 - [ ] Consider alternatives to collecting analytics.
