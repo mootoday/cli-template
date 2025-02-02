@@ -4,3 +4,8 @@ version = "0.0.1"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.95"
+clap = { version = "4.5.27", features = ["derive"] }
+clap-nested-commands = "0.0.6"
+paste = "1.0.15"
+tokio = { version = "1.43.0", features = ["macros", "rt-multi-thread"] }
