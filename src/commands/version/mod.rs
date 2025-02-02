@@ -2,6 +2,7 @@ use crate::{cli_context::CliContext, structs::CommandReturn};
 use clap::{Args, Subcommand};
 use clap_nested_commands::generate_async_commands;
 
+mod changelog;
 mod print;
 
 /// Commands related to the CLI version
@@ -14,4 +15,5 @@ pub struct Command {
 generate_async_commands!(
     return_type = CommandReturn,
     default_command = print;
+    changelog
 );
