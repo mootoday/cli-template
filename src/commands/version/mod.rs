@@ -4,6 +4,7 @@ use clap_nested_commands::generate_async_commands;
 
 mod changelog;
 mod print;
+mod update;
 
 /// Commands related to the CLI version
 #[derive(Debug, Args)]
@@ -15,5 +16,6 @@ pub struct Command {
 generate_async_commands!(
     return_type = CommandReturn,
     default_command = print;
-    changelog
+    changelog,
+    update
 );
