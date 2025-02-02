@@ -16,7 +16,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 [Link to clig.dev section](https://clig.dev/#the-basics)
 
-- [ ] Return zero exit code on success, non-zero on failure.
+- [x] Return zero exit code on success, non-zero on failure.
 - [ ] Send output to `stdout`.
 - [ ] Send messaging to `stderr`.
 
@@ -24,9 +24,9 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 [Link to clig.dev section](https://clig.dev/#help)
 
-- [ ] Display help text when passed no options, the `-h` flag, or the `--help` flag.
+- [x] Display help text when passed no options, the `-h` flag, or the `--help` flag.
 - [ ] Display a concise help text by default.
-- [ ] Show full help when `-h` and `--help` is passed.
+- [x] Show full help when `-h` and `--help` is passed.
 - [ ] Provide a support path for feedback and issues.
 - [ ] In help text, link to the web version of the documentation.
 - [ ] Lead with examples.
@@ -80,8 +80,8 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 [Link to clig.dev section](https://clig.dev/#arguments-and-flags)
 
-- [ ] Prefer flags to args.
-- [ ] Have full-length versions of all flags.
+- [x] Prefer flags to args.
+- [x] Have full-length versions of all flags.
 - [ ] Only use one-letter flags for commonly used flags.
 - [ ] Multiple arguments are fine for simple actions against multiple files.
 - [ ] If you’ve got two or more arguments for different things, you’re probably doing something wrong.
@@ -122,7 +122,6 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 - [ ] Do stuff in parallel where you can, but be thoughtful about it.
 - [ ] Make things time out.
 - [ ] Make it recoverable.
-- [ ] Make it crash-only.
 - [ ] Make it crash-only.
 
 ### Future-proofing
@@ -177,7 +176,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 [Link to clig.dev section](https://clig.dev/#distribution)
 
-- [ ] If possible, distribute as a single binary.
+- [x] If possible, distribute as a single binary.
 - [ ] Make it easy to uninstall.
 
 ### Analytics
