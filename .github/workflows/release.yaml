@@ -35,33 +35,19 @@ jobs:
       - name: Build
         run: cargo build --release --target ${{ matrix.target }}
 
-      - name: Set Archive Name (Non-Windows)
-        id: archive
-        run: echo "archive_name=cli-template-${{ matrix.target }}" >> $GITHUB_ENV
-
-      - name: Set Archive Name (Windows)
-        if: ${{ matrix.os == 'windows-latest' }}
-        run: echo "archive_name=cli-template-${{ matrix.target }}" | Out-File -FilePath $Env:GITHUB_ENV -Encoding utf8 -Append
-
-      - name: Create Archive Folder
-        run: mkdir ${{ env.archive_name }}
-
-      - name: Copy Unix Artifact
+      - name: Create Tar Archive (Unix)
         if: ${{ matrix.os != 'windows-latest' }}
-        run: cp target/${{ matrix.target }}/release/cli-template ${{ env.archive_name }}
+        run: tar -czf cli-template-${{ matrix.target }}.tgz -C target/${{ matrix.target }}/release cli-template
 
-      - name: Copy Windows Artifact
+      - name: Create Tar Archive (Windows)
         if: ${{ matrix.os == 'windows-latest' }}
-        run: cp target/${{ matrix.target }}/release/cli-template.exe ${{ env.archive_name }}
-
-      - name: Create Tar Archive
-        run: tar -czf ${{ env.archive_name }}.tgz ${{ env.archive_name }}
+        run: tar -czf cli-template-${{ matrix.target }}.tgz -C target/${{ matrix.target }}/release cli-template.exe
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4.6.0
         with:
           name: ${{ matrix.target }}
-          path: ${{ env.archive_name }}.tgz
+          path: cli-template-${{ matrix.target }}.tgz
           if-no-files-found: error
 
   release:
