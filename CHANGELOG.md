@@ -1,3 +1,9 @@
+## 0.0.4 (2025-02-02)
+
+### Features
+
+- Add the `version update` command
+
 ## 0.0.2 (2025-02-02)
 
 ### Features
