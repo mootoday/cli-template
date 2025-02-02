@@ -16,7 +16,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 [Link to clig.dev section](https://clig.dev/#the-basics)
 
-- [x] Return zero exit code on success, non-zero on failure.
+- [x] Return zero exit code on success, non-zero on failure. (PR https://github.com/mootoday/cli-template/pull/5)
 - [ ] Send output to `stdout`.
 - [ ] Send messaging to `stderr`.
 
@@ -24,9 +24,9 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 [Link to clig.dev section](https://clig.dev/#help)
 
-- [x] Display help text when passed no options, the `-h` flag, or the `--help` flag.
+- [x] Display help text when passed no options, the `-h` flag, or the `--help` flag. (PR https://github.com/mootoday/cli-template/pull/5)
 - [ ] Display a concise help text by default.
-- [x] Show full help when `-h` and `--help` is passed.
+- [x] Show full help when `-h` and `--help` is passed. (PR https://github.com/mootoday/cli-template/pull/5)
 - [ ] Provide a support path for feedback and issues.
 - [ ] In help text, link to the web version of the documentation.
 - [ ] Lead with examples.
@@ -80,8 +80,8 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 [Link to clig.dev section](https://clig.dev/#arguments-and-flags)
 
-- [x] Prefer flags to args.
-- [x] Have full-length versions of all flags.
+- [x] Prefer flags to args. (PR https://github.com/mootoday/cli-template/pull/5)
+- [x] Have full-length versions of all flags. (PR https://github.com/mootoday/cli-template/pull/5)
 - [ ] Only use one-letter flags for commonly used flags.
 - [ ] Multiple arguments are fine for simple actions against multiple files.
 - [ ] If you’ve got two or more arguments for different things, you’re probably doing something wrong.
@@ -176,7 +176,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 [Link to clig.dev section](https://clig.dev/#distribution)
 
-- [x] If possible, distribute as a single binary.
+- [x] If possible, distribute as a single binary. (PR https://github.com/mootoday/cli-template/pull/2 & https://github.com/mootoday/cli-template/pull/10)
 - [ ] Make it easy to uninstall.
 
 ### Analytics
