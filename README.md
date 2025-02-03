@@ -8,7 +8,7 @@ The CLI in this repository attempts to follow all [clig.dev](https://clig.dev/) 
 
 ## Technologies
 
-The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) crate. For other dependencies, please refer to the [`Cargo.toml`](./Cargo.toml) file.
+The CLI is developed with Rust and the [`clap`](https://crates.io/crates/clap) crate. For other dependencies, please refer to the [`Cargo.toml`](./Cargo.toml) file.
 
 ## Guidelines
 
@@ -68,7 +68,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 ### Errors
 
-[Link to clig.dev section](https://clig.dev/#output)
+[Link to clig.dev section](https://clig.dev/#errors)
 
 - [ ] Catch errors and rewrite them for humans.
 - [ ] Signal-to-noise ratio is crucial.
@@ -137,7 +137,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 ### Signals and control characters
 
-[Link to clig.dev section](https://clig.dev/#future-proofing)
+[Link to clig.dev section](https://clig.dev/#signals)
 
 - [ ] If a user hits Ctrl-C (the INT signal), exit as soon as possible.
 - [ ] If a user hits Ctrl-C during clean-up operations that might take a long time, skip them.
