@@ -4,6 +4,7 @@ use clap_nested_commands::generate_async_commands;
 
 mod changelog;
 mod print;
+mod uninstall;
 mod update;
 
 /// Commands related to the CLI version
@@ -17,5 +18,6 @@ generate_async_commands!(
     return_type = CommandReturn,
     default_command = print;
     changelog,
-    update
+    update,
+    uninstall
 );
