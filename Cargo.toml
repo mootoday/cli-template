@@ -10,7 +10,11 @@ name = "cli-template"
 anyhow = "1.0.95"
 clap = { version = "4.5.27", features = ["derive"] }
 clap-nested-commands = "0.0.6"
+cliclack = "0.3.5"
+confy = "0.6.1"
 paste = "1.0.15"
+reqwest = { version = "0.12.12", features = ["json"] }
+serde = { version = "1.0.217", features = ["derive"] }
 termimad = "0.31.2"
 tokio = { version = "1.43.0", features = ["macros", "rt-multi-thread"] }
 
