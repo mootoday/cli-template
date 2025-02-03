@@ -18,12 +18,9 @@ pub async fn execute(_cli_context: &CliContext, _cmd: Command) -> Result<Command
     .interact()?;
 
     if should_continue {
-        uninstall()?;
+        let status_message = uninstall()?;
         Ok(CommandReturn {
-            message: Some(format!(
-                "Successfully uninstalled the {} CLI",
-                env!("CARGO_BIN_NAME")
-            )),
+            message: Some(status_message),
         })
     } else {
         Ok(CommandReturn {
