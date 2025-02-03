@@ -1,3 +1,11 @@
+## 0.0.6 (2025-02-03)
+
+### Features
+
+#### Add a `version uninstall` command
+
+This prompts the user whether they are sure to uninstall the CLI. If confirmed, the CLI binary is going to get deleted.
+
 ## 0.0.5 (2025-02-03)
 
 ### Features
