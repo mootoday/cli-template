@@ -177,7 +177,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 [Link to clig.dev section](https://clig.dev/#distribution)
 
 - [x] If possible, distribute as a single binary. (PR https://github.com/mootoday/cli-template/pull/2 & https://github.com/mootoday/cli-template/pull/10)
-- [ ] Make it easy to uninstall.
+- [x] Make it easy to uninstall. (PR https://github.com/mootoday/cli-template/pull/16)
 
 ### Analytics
 
