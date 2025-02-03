@@ -27,7 +27,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 - [x] Display help text when passed no options, the `-h` flag, or the `--help` flag. (PR https://github.com/mootoday/cli-template/pull/5)
 - [ ] Display a concise help text by default.
 - [x] Show full help when `-h` and `--help` is passed. (PR https://github.com/mootoday/cli-template/pull/5)
-- [ ] Provide a support path for feedback and issues.
+- [x] Provide a support path for feedback and issues. (PR https://github.com/mootoday/cli-template/pull/13)
 - [ ] In help text, link to the web version of the documentation.
 - [ ] Lead with examples.
 - [ ] If you’ve got loads of examples, put them somewhere else
@@ -146,7 +146,7 @@ The CLI is develop with Rust and the [`clap`](https://crates.io/crates/clap) cra
 
 [Link to clig.dev section](https://clig.dev/#configuration)
 
-- [ ] Follow the XDG-spec.
+- [x] Follow the XDG-spec. (PR https://github.com/mootoday/cli-template/pull/13)
 - [ ] If you automatically modify configuration that is not your program’s, ask the user for consent and tell them exactly what you’re doing.
 - [ ] Apply configuration parameters in order of precedence.
 
